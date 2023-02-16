@@ -15,7 +15,7 @@ This project is mainly for a gpgpu development.
 
 ## SW Architecture Ideas
 There will be too much effort to support cuda runtime.
-We choose the easy way, basic compiler support(RISV-GPU?). And then go on use the pytorch-triton way.
+We choose the easy way, basic compiler support(RISV-GPU?)[2]. And then go on use the pytorch-triton way.
 
 thin software stack is the goal.
 
@@ -42,5 +42,7 @@ Then Each part is for a maintainer to take responsiblity.
 We should discuss process every week, not too much time.
 
 
+## Reference
 [1] Kung, Hsiang-Tsung. "Why systolic architectures?." Computer 15.1 (1982): 37-46.
+[2] https://arxiv.org/abs/2110.10857
 
