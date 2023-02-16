@@ -2,7 +2,7 @@
 
 This project is mainly for a gpgpu development.
 
-1. I intend to write this project in chisel.
+1. I intend to write this project in chisel[1].
 2. using some kind of cpu simulation for tests, should consider of circle-ci like cloud ci for verifing.
 3. At the very beginning, I intend to use this repository for some technical knowledge sharing. We should put some informations and knowledges we need here.
 
@@ -11,11 +11,11 @@ This project is mainly for a gpgpu development.
 1. The gpu should use the SIMT programming model.
 2. The gpu arch should be simple(easy to understand)!! simple is the key idea.
 3. May be use the unified L1 cache and register files.
-4. The tensor-core can use the google TPU archtecture[1].
+4. The tensor-core can use the google TPU archtecture[2].
 
 ## SW Architecture Ideas
 There will be too much effort to support cuda runtime.
-We choose the easy way, basic compiler support(RISV-GPU?)[2]. And then go on use the pytorch-triton way.
+We choose the easy way, basic compiler support(RISV-GPU?)[3]. And then go on use the pytorch-triton way.
 
 thin software stack is the goal.
 
@@ -43,6 +43,8 @@ We should discuss process every week, not too much time.
 
 
 ## Reference
-[1] Kung, Hsiang-Tsung. "Why systolic architectures?." Computer 15.1 (1982): 37-46.  
-[2] https://arxiv.org/abs/2110.10857
+[1] https://www.chisel-lang.org/  
+[2] Kung, Hsiang-Tsung. "Why systolic architectures?." Computer 15.1 (1982): 37-46.  
+[3] https://arxiv.org/abs/2110.10857  
+
 
