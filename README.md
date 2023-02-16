@@ -11,7 +11,7 @@ This project is mainly for a gpgpu development.
 1. The gpu should use the SIMT programming model.
 2. The gpu arch should be simple(easy to understand)!! simple is the key idea.
 3. May be use the unified L1 cache and register files.
-4. The tensor-core can use the google TPU archtecture.
+4. The tensor-core can use the google TPU archtecture[1].
 
 ## SW Architecture Ideas
 There will be too much effort to support cuda runtime.
@@ -41,4 +41,6 @@ Then Each part is for a maintainer to take responsiblity.
 
 We should discuss process every week, not too much time.
 
+
+[1] Kung, Hsiang-Tsung. "Why systolic architectures?." Computer 15.1 (1982): 37-46.
 
