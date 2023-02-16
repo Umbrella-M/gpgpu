@@ -43,6 +43,6 @@ We should discuss process every week, not too much time.
 
 
 ## Reference
-[1] Kung, Hsiang-Tsung. "Why systolic architectures?." Computer 15.1 (1982): 37-46.
+[1] Kung, Hsiang-Tsung. "Why systolic architectures?." Computer 15.1 (1982): 37-46.  
 [2] https://arxiv.org/abs/2110.10857
 
